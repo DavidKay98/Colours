@@ -1,0 +1,64 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+
+.small, .medium, .large, .veryLarge{
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  body{
+    background-color: aqua;
+  }
+
+  .verySmall, .medium, .large, .veryLarge{
+    display: none;
+  }
+
+  .small{
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body{
+    background-color: blueviolet;
+  }
+
+  .verySmall, .small, .large, .veryLarge{
+    display: none;
+  }
+
+  .medium{
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body{
+    background-color: brown;
+  }
+
+  .verySmall, .small, .medium, .veryLarge{
+    display: none;
+  }
+
+  .large{
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body{
+    background-color: red;
+  }
+
+  .verySmall, .small, .medium, .large{
+    display: none;
+  }
+
+  .veryLarge{
+    display: inline;
+  }
+}

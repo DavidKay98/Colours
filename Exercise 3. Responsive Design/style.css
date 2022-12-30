@@ -1,0 +1,138 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+header{
+  background-color: lightgray;
+  height: 100px;
+  border-bottom-style: solid;
+
+}
+.header-parent-flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.header-flexbox-child-1{
+  display: flex;
+  color: black;
+  font-size: 1.5em;
+  justify-content: space-between;
+}
+
+.header-flexbox-child-2{
+  display: flex;
+  justify-content: flex-start;
+  color: blue;
+  text-decoration: underline;
+}
+
+.header-flexbox-child-3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-2{
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+main{
+  padding: 2em;
+}
+
+.hero{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2em;
+}
+
+p{
+  padding-right: 25em;
+}
+
+button{
+  border-bottom-style: solid;
+  background-color: white;
+}
+
+.feature-message{
+  background-color: lightgray;
+  margin-top: 2em;
+  padding: 2em;
+  text-align: center
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 8em 8em;
+  margin-top: 2em;
+  padding: 2em;
+  gap: 2em;
+  text-align: center;
+}
+
+.grid-item{
+  background-color: lightgray;
+}
+
+.grid-flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.flexbox-footer-parent-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  border-top-style: solid;
+}
+
+.footer-flexbox-child-1{
+  display: flex;
+  justify-content: flex-start;
+  color: blue;
+  text-decoration: underline;
+  align-self: flex-start;
+}
+
+.stay-in-touch{
+  align-self: flex-end;
+}
+
+.flexbox-footer-parent-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button-2{
+  background-color: gray;
+  color: white;
+}
+
+.attributes{
+  color: blue;
+}
